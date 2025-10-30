@@ -64,8 +64,10 @@ Serve customers the food they want before they lose patience! Each successful de
   - Gain +0.5 stars for every 3 successful deliveries
   - Lose -0.5 stars when customers leave angry
   - Game over at 0 stars!
-  
 
+<p align="center">
+  <img src="Image/ReadMe/GameOver.png" alt="Game Over" width="600" />
+</p>
 
 ### Economy System
 - **Starting Money**: $10
@@ -90,6 +92,10 @@ Serve customers the food they want before they lose patience! Each successful de
 - Each correct item: +20 score, +$5
 - Complete bonus: +$50
 - Normal customers pause during giant events
+
+<p align="center">
+  <img src="Image/ReadMe/GiantBonus.png" alt="Giant Bonus" width="600" />
+</p>
 
 ## Installation and Running
 
@@ -130,4 +136,5 @@ Serve customers the food they want before they lose patience! Each successful de
 - Particle effect system
 - Dynamic difficulty scaling
 - State management for game flow
+
 
