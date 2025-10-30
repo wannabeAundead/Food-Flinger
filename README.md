@@ -22,6 +22,50 @@ Serve customers the food they want before they lose patience! Each successful de
   - Gain +0.5 stars for every 3 successful deliveries
   - Lose -0.5 stars when customers leave angry
   - Game over at 0 stars!
+  
+
+### Economy System
+- **Starting Money**: $10
+- **Food Cost**: -$3 per throw
+- **Customer Payment**: +$5 per successful delivery
+- **Bankruptcy**: Game over if money drops below $0
+
+### Combo System
+- Build combos by serving customers quickly
+- Combo multiplier boosts your score (not money)
+- 3 seconds to maintain combo - miss and it resets!
+# Food Flinger
+
+A fast-paced 2D restaurant management game where you throw food to hungry customers! Built with Pygame.
+
+## Gameplay
+
+- **Move**: Use A and D keys to switch between food stations
+- **Aim**: Use mouse to aim at customers
+- **Throw**: Left click to launch food to customers
+
+### Game Scene
+
+<p align="center">
+  <img src="Image/ReadMe/GameScene.png" alt="Game Scene" width="800" />
+</p>
+
+## Game Objective
+
+Serve customers the food they want before they lose patience! Each successful delivery earns you money and score points. But be careful - running out of money or getting too many bad reviews will close your shop!
+
+## Game Mechanics
+
+### Basic Systems
+- **Three Food Types**: Burger, Fries, and Cola
+- **Physics-Based Throwing**: Realistic projectile motion with gravity
+- **Customer Patience**: Customers will leave angry if you take too long
+- **Shop Rating**: Maintain a 5-star rating system
+  - Gain +0.5 stars for every 3 successful deliveries
+  - Lose -0.5 stars when customers leave angry
+  - Game over at 0 stars!
+  
+
 
 ### Economy System
 - **Starting Money**: $10
